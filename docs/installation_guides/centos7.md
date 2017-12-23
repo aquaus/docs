@@ -212,7 +212,11 @@ As all of the source code is hosted on Github which is a Git based source contro
 ```
 yum install -y git
 ```
-
+### Zip / Unzip utility
+This is needed to unpackage composer packages for installation.
+```
+yum install zip unzip php7.0-zip
+```
 ### seat download
 Finally, we get to install SeAT itself. The first thing we need to do is to decide where to save SeAT itself. This directory should have enough space for the cached XML files to live on, as well as a few log files should you need to debug problems. The recommended location is `/var/www/seat/`. To save SeAT in this directory, first change to it:
 ```
